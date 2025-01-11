@@ -37,7 +37,6 @@
     .first_section .cont
     {
         padding-top: 341px;
-        padding-bottom: 68px;
     }
 
 
@@ -49,6 +48,8 @@
         padding: 0;
 
         text-align: center;
+
+        text-shadow: 0 0 16px #000;
     }
 
 
@@ -133,8 +134,8 @@
 
     .our_resources .item img
     {
-        width: 30px;
-        height: 30px;
+        width: 29px;
+        height: 29px;
     }
 
 
@@ -171,6 +172,12 @@
     }
 
 
+    .our_resources .item:hover img
+    {
+        transform: none;
+    }
+
+
     .our_resources .swiper-slide.active
     {
         z-index: 3;
@@ -194,6 +201,12 @@
         height: calc(100% + 20px);
 
         opacity: 1;
+    }
+
+
+    .our_resources .swiper-slide.active .item img
+    {
+        transform: scale(1.35);
     }
 
 

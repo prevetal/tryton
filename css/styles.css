@@ -335,9 +335,8 @@ button
     position: relative;
     z-index: 3;
 
-    min-height: 780px;
     padding-top: 216px;
-    padding-bottom: 113px;
+    padding-bottom: 68px;
 }
 
 
@@ -588,6 +587,8 @@ button
 
     width: 45px;
     height: 45px;
+
+    transition: transform .2s linear;
 }
 
 
@@ -606,6 +607,12 @@ button
     height: calc(100% + 30px);
 
     opacity: 1;
+}
+
+
+.our_resources .item:hover img
+{
+    transform: scale(1.35);
 }
 
 

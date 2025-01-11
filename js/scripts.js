@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			breakpoints: {
 				0: {
 					centeredSlides: true,
-					spaceBetween: 8,
+					spaceBetween: 12,
 					slidesPerView: 3,
 					slideToClickedSlide: true
 				},
