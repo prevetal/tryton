@@ -1,0 +1,1030 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+        --font_size_title_big: 48px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        z-index: 5;
+    }
+
+
+    .first_section .bg
+    {
+        display: none;
+    }
+
+
+    .first_section .bg.mob
+    {
+        display: block;
+    }
+
+
+    .first_section .cont
+    {
+        padding-top: 341px;
+        padding-bottom: 68px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: calc(var(--font_size_title) + 10px);
+
+        margin-bottom: 73px;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+    .first_section .sub_title
+    {
+        font-size: 17px;
+
+        margin-bottom: 37px;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+    .first_section .chains
+    {
+        gap: 18px;
+    }
+
+
+    .first_section .chain .name
+    {
+        font-size: 28px;
+    }
+
+
+    .first_section .chain .copy_btn svg
+    {
+        width: 11px;
+        height: 15px;
+    }
+
+
+    .first_section .chain .address
+    {
+        font-size: 12px;
+
+        width: 83px;
+    }
+
+
+
+    /*-------------------
+        Our resources
+    -------------------*/
+    .our_resources
+    {
+        position: relative;
+        z-index: 5;
+
+        margin-bottom: 68px;
+    }
+
+
+    .our_resources .block_head
+    {
+        display: none;
+    }
+
+
+    .our_resources .swiper
+    {
+        width: calc(100% + 64px);
+        max-width: calc(100% + 64px);
+        margin-right: -32px;
+        margin-left: -32px;
+    }
+
+
+    .our_resources .swiper-button-next,
+    .our_resources .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .our_resources .item
+    {
+        height: 55px;
+    }
+
+
+    .our_resources .item img
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .our_resources .item:before
+    {
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+    }
+
+
+    .our_resources .item:hover:before
+    {
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+
+        border-color: #0b507d;
+    }
+
+
+    .our_resources .item:hover:after
+    {
+        width: 100%;
+        height: 100%;
+
+        opacity: 0;
+    }
+
+
+    .our_resources .swiper-slide:hover
+    {
+        z-index: 1;
+
+        transition: opacity .2s linear, visibility .2s linear, z-index 0s linear .1s;
+    }
+
+
+    .our_resources .swiper-slide.active
+    {
+        z-index: 3;
+
+        transition: opacity .2s linear, visibility .2s linear;
+    }
+
+
+    .our_resources .swiper-slide.active .item:before
+    {
+        width: calc(100% + 44px);
+        height: calc(100% + 14px);
+
+        border-color: #fff;
+    }
+
+
+    .our_resources .swiper-slide.active .item:after
+    {
+        width: calc(100% + 54px);
+        height: calc(100% + 20px);
+
+        opacity: 1;
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission
+    {
+        margin-bottom: 86px;
+    }
+
+
+    .mission .mob_title,
+    .mission .mob_img
+    {
+        display: block;
+    }
+
+
+    .mission .row
+    {
+        margin-bottom: -235px;
+        margin-left: 0;
+    }
+
+
+    .mission .row > *
+    {
+        width: 100%;
+        margin-bottom: 235px;
+        margin-left: 0;
+    }
+
+
+    .mission .item
+    {
+        padding-right: 27px;
+        padding-left: 27px;
+    }
+
+
+    .mission .item:before
+    {
+        width: 246px;
+    }
+
+
+    .mission .item:after
+    {
+        top: -209px;
+        left: 23px;
+
+        width: 187px;
+        height: 327px;
+
+        border-radius: 339px;
+    }
+
+
+    .mission .item .name
+    {
+        font-size: 30px;
+
+        margin-bottom: 19px;
+    }
+
+
+    .mission .item .link a
+    {
+        width: 183px;
+    }
+
+
+    .mission .main_item
+    {
+        width: 100%;
+        margin-bottom: 216px;
+        padding: 0;
+
+        border: none;
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .mission .main_item:before,
+    .mission .main_item:after
+    {
+        display: none;
+    }
+
+
+    .mission .main_item .name
+    {
+        margin-bottom: 29px;
+    }
+
+
+    .mission .main_item .name > *,
+    .mission .main_item .name .span1
+    {
+        display: none;
+    }
+
+
+    .mission .main_item .name .span2
+    {
+        font-size: 32px;
+
+        position: relative;
+
+        display: block;
+
+        padding-bottom: 11px;
+    }
+
+
+    .mission .main_item .name .span2:after
+    {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        display: block;
+
+        width: 143px;
+        height: 5px;
+        margin: 0 auto;
+
+        content: '';
+        pointer-events: none;
+
+        border-radius: 8px;
+        background: #ffa800;
+    }
+
+
+    .mission .main_item .sub_name
+    {
+        font-size: 16px;
+
+        margin-bottom: 29px;
+    }
+
+
+    .mission .main_item .desc
+    {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+
+    .mission .main_item .link
+    {
+        position: relative;
+        bottom: 0;
+        left: 0;
+
+        margin-top: 54px;
+
+        transform: none;
+    }
+
+
+    .mission .item .link a
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .mission .number02,
+    .mission .number03,
+    .mission .number04
+    {
+        font-size: 350px;
+    }
+
+
+    .mission .number02
+    {
+        font-size: 300px;
+
+        top: -145px;
+        left: -80px;
+
+        margin-left: 0;
+    }
+
+    .mission .number03
+    {
+        top: 680px;
+        right: -80px;
+        left: auto;
+
+        margin-left: 0;
+    }
+
+    .mission .number04
+    {
+        bottom: -304px;
+    }
+
+
+    .mission .img,
+    .mission .bg_light,
+    .mission .bg,
+    .mission .bg2,
+    .mission .bg3,
+    .mission .bg4
+    {
+        display: none;
+    }
+
+
+    .mission .mob_bg,
+    .mission .mob_bg2,
+    .mission .mob_bg3,
+    .mission .mob_bg4,
+    .mission .mob_bg5,
+    .mission .mob_bg6,
+    .mission .mob_bg7,
+    .mission .mob_bg8,
+    .mission .mob_bg9,
+    .mission .mob_bg10,
+    .mission .mob_bg11
+    {
+        display: block;
+    }
+
+
+
+    /*--------------------
+        NFT collection
+    --------------------*/
+    .nft_collection
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .nft_collection .img
+    {
+        width: 834px;
+    }
+
+
+    .nft_collection .mob_bg
+    {
+        display: block;
+    }
+
+
+
+    /*-----------------
+        Info blocks
+    -----------------*/
+    .info_blocks
+    {
+        margin-bottom: 33px;
+        padding-bottom: 31px;
+
+        background: var(--bg);
+    }
+
+
+    .info_blocks .title
+    {
+        margin-bottom: 19px;
+    }
+
+
+    .info_blocks .desc > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .info_blocks .link
+    {
+        margin-top: 26px;
+    }
+
+
+    .info_blocks .link a
+    {
+        width: 183px;
+    }
+
+
+    .info_blocks .image
+    {
+        margin-top: 32px;
+    }
+
+
+    .info_blocks .number05
+    {
+        font-size: 350px;
+
+        top: 488px;
+
+        margin-left: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+    .info_blocks .bg,
+    .info_blocks .bg2,
+    .info_blocks .bg3,
+    .info_blocks .mob_bg
+    {
+        display: none;
+    }
+
+
+    .info_blocks .mob_bg2,
+    .info_blocks .mob_bg3,
+    .info_blocks .mob_bg4,
+    .info_blocks .mob_bg5,
+    .info_blocks .mob_bg6
+    {
+        display: block;
+    }
+
+
+
+    /*------------
+        Wallet
+    ------------*/
+    .wallet
+    {
+        margin-bottom: 142px;
+        padding-bottom: 94px;
+
+        background: var(--bg);
+    }
+
+
+    .wallet .block_head
+    {
+        margin-bottom: 12px;
+        padding-right: 136px;
+    }
+
+
+    .wallet .data
+    {
+        height: 291px;
+    }
+
+
+    .wallet .img
+    {
+        right: 0;
+        bottom: -23px;
+        left: -7px;
+
+        height: 364px;
+        margin: 0 auto;
+
+        transform: none;
+    }
+
+
+    .wallet .bg
+    {
+        display: none;
+    }
+
+
+    .wallet .bg.mob
+    {
+        display: block;
+    }
+
+
+    .wallet .vertical_title
+    {
+        font-size: 300px;
+
+        top: 100%;
+        right: -140px;
+
+        display: block;
+
+        margin-top: -24px;
+        margin-right: 0;
+    }
+
+
+    .wallet .number06
+    {
+        font-size: 350px;
+
+        bottom: -324px;
+        left: 50%;
+
+        margin-left: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+    .wallet .mob_bg,
+    .wallet .mob_bg2
+    {
+        display: block;
+    }
+
+
+
+    /*------------------
+        Three blocks
+    ------------------*/
+    .three_blocks
+    {
+        z-index: 5;
+
+        margin-bottom: -12px;
+        padding-bottom: 80px;
+
+        background: var(--bg);
+    }
+
+
+    .three_blocks .row
+    {
+        margin-bottom: -208px;
+        margin-left: 0;
+    }
+
+
+    .three_blocks .row > *
+    {
+        width: 100%;
+        margin-bottom: 208px;
+        margin-left: 0;
+    }
+
+
+    .three_blocks .item
+    {
+        padding-right: 27px;
+        padding-left: 27px;
+    }
+
+
+    .three_blocks .item:before
+    {
+        width: 246px;
+    }
+
+
+    .three_blocks .item:after
+    {
+        top: -209px;
+        left: 23px;
+
+        width: 187px;
+        height: 327px;
+
+        border-radius: 339px;
+    }
+
+
+    .three_blocks .item .name
+    {
+        font-size: 30px;
+
+        margin-bottom: 19px;
+    }
+
+
+    .three_blocks .item .link a
+    {
+        width: 183px;
+    }
+
+
+
+    .three_blocks .bg,
+    .three_blocks .bg2,
+    .three_blocks .mob_bg
+    {
+        display: none;
+    }
+
+
+    .three_blocks .mob_bg2,
+    .three_blocks .mob_bg3,
+    .three_blocks .mob_bg4,
+    .three_blocks .mob_bg5,
+    .three_blocks .mob_bg6,
+    .three_blocks .mob_bg7,
+    .three_blocks .mob_bg8,
+    .three_blocks .mob_bg9,
+    .three_blocks .mob_bg10,
+    .three_blocks .mob_bg11
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Tokenomics
+    ----------------*/
+    .tokenomics
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .tokenomics .title
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .tokenomics .persents
+    {
+        position: absolute;
+        right: 0;
+        bottom: 92px;
+        left: 0;
+
+        width: 277px;
+        margin: 0 auto;
+    }
+
+
+    .tokenomics .total_supply
+    {
+        margin-top: 218px;
+    }
+
+
+    .tokenomics .total_supply .total
+    {
+        width: 100%;
+    }
+
+
+    .tokenomics .total_supply .total .val
+    {
+        font-size: 64px;
+
+        margin-top: -18px;
+    }
+
+
+    .tokenomics .total_supply .tokens
+    {
+        font-size: 22px;
+
+        margin-top: 345px;
+
+        gap: 28px;
+    }
+
+
+    .tokenomics .total_supply .tokens span
+    {
+        width: 52px;
+    }
+
+
+    .tokenomics .number07
+    {
+        font-size: 350px;
+
+        z-index: 2;
+        top: auto;
+        bottom: -140px;
+
+        margin-left: 0;
+    }
+
+
+    .tokenomics .bg
+    {
+        display: none;
+    }
+
+    .tokenomics .bg.mob,
+    .tokenomics .mob_bg,
+    .tokenomics .mob_bg2,
+    .tokenomics .mob_bg3
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Roadmap
+    -------------*/
+    .roadmap
+    {
+        margin-bottom: -30px;
+        padding-bottom: 72px;
+
+        background: var(--bg);
+    }
+
+
+    .roadmap .cont
+    {
+        padding: 0;
+    }
+
+
+    .roadmap .data
+    {
+        padding: 77px 27px 93px;
+    }
+
+
+    .roadmap .items
+    {
+        width: 100%;
+
+        gap: 0;
+    }
+
+
+    .roadmap .items .item
+    {
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+
+    .roadmap .items .item + .item
+    {
+        margin-top: -10px;
+    }
+
+
+    .roadmap .items .item img
+    {
+        width: 163px;
+        height: 163px;
+    }
+
+
+    .roadmap .items .item ul
+    {
+        width: calc(100% - 163px);
+    }
+
+
+    .roadmap .number08
+    {
+        display: none;
+    }
+
+
+    .roadmap .year2024
+    {
+        font-size: 100px;
+
+        top: 43px;
+        left: 116px;
+
+        margin-left: 0;
+
+        writing-mode: vertical-lr;
+    }
+
+
+    .roadmap .year2025
+    {
+        font-size: 150px;
+
+        right: 93px;
+        bottom: 24px;
+
+        writing-mode: vertical-rl;
+    }
+
+
+    .roadmap .bg
+    {
+        display: none;
+    }
+
+
+    .roadmap .mob_bg,
+    .roadmap .mob_bg2,
+    .roadmap .mob_bg3,
+    .roadmap .mob_bg4
+    {
+        display: block;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .team .block_head
+    {
+        margin-bottom: 0;
+    }
+
+
+    .team .row > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
+    .team .person .photo img
+    {
+        height: 374px;
+    }
+
+
+    .team .person .info
+    {
+        bottom: 25px;
+
+        padding: 0;
+    }
+
+
+    .team .person .name
+    {
+        font-size: 14px;
+    }
+
+
+    .team .person .post
+    {
+        font-size: 16px;
+
+        margin-top: 9px;
+    }
+
+
+    .team .more
+    {
+        font-size: 26px;
+
+        padding: 4px;
+
+        text-align: left;
+    }
+
+
+    .team .number08,
+    .team .mob_bg,
+    .team .mob_bg2,
+    .team .mob_bg3,
+    .team .mob_bg4,
+    .team .mob_bg5,
+    .team .mob_bg6
+    {
+        display: block;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        z-index: 5;
+
+        padding-top: 0;
+        padding-bottom: 38px;
+    }
+
+
+    footer .bg
+    {
+        display: none;
+    }
+
+
+    footer .cont
+    {
+        flex-direction: column;
+    }
+
+
+    footer .logo
+    {
+        margin-top: -26px;
+
+        text-align: center;
+    }
+
+
+    footer .logo img
+    {
+        width: 268px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 16px;
+
+        order: 3;
+
+        margin-top: 40px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    footer .socials
+    {
+        margin-top: 17px;
+        margin-left: 0;
+    }
+}

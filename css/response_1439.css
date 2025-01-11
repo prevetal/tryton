@@ -1,0 +1,67 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        padding-left: 25.851%;
+    }
+
+
+    .first_section .sub_title
+    {
+        padding-left: 14%;
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission .item
+    {
+        padding-right: 31px;
+        padding-left: 31px;
+    }
+
+
+
+    /*------------------
+        Three blocks
+    ------------------*/
+    .three_blocks .item
+    {
+        padding-right: 31px;
+        padding-left: 31px;
+    }
+
+
+
+    /*----------------
+        Tokenomics
+    ----------------*/
+    .tokenomics .total_supply .total .label
+    {
+        font-size: 36px;
+    }
+
+
+    .tokenomics .total_supply .total .val
+    {
+        font-size: 80px;
+    }
+
+
+    .tokenomics .total_supply .tokens
+    {
+        font-size: 36px;
+    }
+}

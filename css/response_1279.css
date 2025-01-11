@@ -1,0 +1,685 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 44px;
+        --font_size_title_big: 56px;
+    }
+
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 0;
+        padding-top: 192px;
+        padding-bottom: 112px;
+    }
+
+
+    .first_section .title
+    {
+        margin-bottom: 148px;
+        padding-left: 23.15%;
+    }
+
+
+    .first_section .sub_title
+    {
+        font-size: 24px;
+
+        padding-left: 9.5%;
+    }
+
+
+    .first_section .chains
+    {
+        gap: 60px;
+    }
+
+
+    .first_section .chain .name
+    {
+        font-size: 28px;
+    }
+
+
+    .first_section .bg
+    {
+        width: 1480px;
+    }
+
+
+
+    /*-------------------
+        Our resources
+    -------------------*/
+    .our_resources
+    {
+        margin-bottom: 112px;
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission
+    {
+        margin-bottom: 124px;
+    }
+
+
+    .mission .row
+    {
+        margin-left: -16px;
+    }
+
+
+    .mission .row > *
+    {
+        width: calc(33.333% - 16px);
+        margin-left: 16px;
+    }
+
+
+    .mission .item
+    {
+        padding-right: 23px;
+        padding-bottom: 71px;
+        padding-left: 23px;
+    }
+
+
+    .mission .item:before
+    {
+        width: 240px;
+    }
+
+
+    .mission .item:after
+    {
+        top: -200px;
+        left: 12px;
+
+        width: 160px;
+        height: 280px;
+
+        border-radius: 280px;
+    }
+
+
+    .mission .item .name
+    {
+        font-size: 28px;
+    }
+
+
+    .mission .item .link a
+    {
+        width: 172px;
+    }
+
+
+
+    .mission .main_item
+    {
+        width: 380px;
+        margin-bottom: 280px;
+        margin-left: 124px;
+        padding-top: 35px;
+    }
+
+
+    .mission .main_item:before
+    {
+        width: 140px;
+    }
+
+
+    .mission .main_item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .mission .main_item .name .span2
+    {
+        font-size: 30px;
+    }
+
+
+
+    .mission .number02,
+    .mission .number03,
+    .mission .number04
+    {
+        font-size: 480px;
+    }
+
+
+    .mission .number02
+    {
+        top: -218px;
+
+        margin-left: -120px;
+    }
+
+    .mission .number03
+    {
+        top: 400px;
+
+        margin-left: -448px;
+    }
+
+    .mission .number04
+    {
+        bottom: -428px;
+
+        margin-left: -112px;
+    }
+
+
+    .mission .img
+    {
+        top: 160px;
+
+        width: 372px;
+        margin-left: 80px;
+    }
+
+
+    .mission .vertical_title
+    {
+        display: none;
+    }
+
+
+    .mission .bg_light,
+    .mission .bg,
+    .mission .bg2,
+    .mission .bg3,
+    .mission .bg4
+    {
+        width: 1480px;
+    }
+
+
+
+    /*--------------------
+        NFT collection
+    --------------------*/
+    .nft_collection
+    {
+        margin-bottom: 92px;
+    }
+
+
+    .nft_collection .img
+    {
+        width: 1340px;
+    }
+
+
+
+    /*-----------------
+        Info blocks
+    -----------------*/
+    .info_blocks
+    {
+        margin-bottom: 112px;
+    }
+
+
+    .info_blocks .block + .block
+    {
+        margin-top: 60px;
+    }
+
+
+    .info_blocks .data
+    {
+        width: 480px;
+        padding-top: 0;
+    }
+
+
+    .info_blocks .link a
+    {
+        width: 172px;
+    }
+
+
+    .info_blocks .image
+    {
+        width: calc(100% - 520px);
+    }
+
+
+
+    .info_blocks .number05
+    {
+        font-size: 480px;
+
+        top: 24px;
+
+        margin-left: -312px;
+    }
+
+
+    .info_blocks .bg,
+    .info_blocks .bg2,
+    .info_blocks .bg3
+    {
+        width: 1480px;
+    }
+
+
+    .info_blocks .bg
+    {
+        top: -608px;
+    }
+
+
+
+    /*------------
+        Wallet
+    ------------*/
+    .wallet
+    {
+        margin-bottom: 224px;
+    }
+
+
+    .wallet .data
+    {
+        height: 480px;
+    }
+
+
+    .wallet .img
+    {
+        bottom: -40px;
+
+        height: 580px;
+        margin-left: -140px;
+    }
+
+
+    .wallet .vertical_title
+    {
+        display: none;
+    }
+
+
+    .wallet .number06
+    {
+        font-size: 480px;
+
+        bottom: -460px;
+    }
+
+
+
+    /*------------------
+        Three blocks
+    ------------------*/
+    .three_blocks
+    {
+        margin-bottom: 124px;
+    }
+
+
+    .three_blocks .row
+    {
+        margin-left: -16px;
+    }
+
+
+    .three_blocks .row > *
+    {
+        width: calc(33.333% - 16px);
+        margin-left: 16px;
+    }
+
+
+    .three_blocks .item
+    {
+        padding-right: 23px;
+        padding-bottom: 71px;
+        padding-left: 23px;
+    }
+
+
+    .three_blocks .item:before
+    {
+        width: 240px;
+    }
+
+
+    .three_blocks .item:after
+    {
+        top: -200px;
+        left: 12px;
+
+        width: 160px;
+        height: 280px;
+
+        border-radius: 280px;
+    }
+
+
+    .three_blocks .item:nth-child(3) .thumb img
+    {
+        margin-left: 12px;
+    }
+
+
+    .three_blocks .item .name
+    {
+        font-size: 28px;
+    }
+
+
+    .three_blocks .item .desc > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .three_blocks .item .link a
+    {
+        width: 172px;
+    }
+
+
+
+    .three_blocks .bg,
+    .three_blocks .bg2
+    {
+        width: 1480px;
+    }
+
+
+    .three_blocks .bg2
+    {
+        top: 100px;
+    }
+
+
+
+    /*----------------
+        Tokenomics
+    ----------------*/
+    .tokenomics
+    {
+        margin-bottom: 124px;
+    }
+
+
+    .tokenomics .title
+    {
+        margin-top: 20px;
+        margin-left: 48px;
+    }
+
+
+    .tokenomics .persents
+    {
+        width: 400px;
+        margin-right: 40px;
+    }
+
+
+    .tokenomics .total_supply
+    {
+        margin-top: 8px;
+    }
+
+
+    .tokenomics .total_supply .total .label
+    {
+        font-size: 28px;
+    }
+
+
+    .tokenomics .total_supply .total .val
+    {
+        font-size: 70px;
+    }
+
+
+    .tokenomics .total_supply .tokens
+    {
+        font-size: 28px;
+
+        margin-top: 4px;
+
+        gap: 40px;
+    }
+
+
+    .tokenomics .total_supply .tokens span
+    {
+        width: 68px;
+    }
+
+
+    .tokenomics .number07
+    {
+        font-size: 480px;
+
+        top: -296px;
+
+        margin-left: -100px;
+    }
+
+
+    .tokenomics .bg
+    {
+        width: 1480px;
+    }
+
+
+
+    /*-------------
+        Roadmap
+    -------------*/
+    .roadmap .data
+    {
+        padding: 91px 55px 67px;
+    }
+
+
+    .roadmap .block_head
+    {
+        top: -42px;
+    }
+
+
+    .roadmap .items
+    {
+        width: 860px;
+    }
+
+
+    .roadmap .items .item
+    {
+        font-size: 16px;
+    }
+
+
+    .roadmap .items .item1
+    {
+        top: 12px;
+    }
+
+    .roadmap .items .item2
+    {
+        left: 186px;
+    }
+
+    .roadmap .items .item3
+    {
+        top: -20px;
+        left: 342px;
+    }
+
+    .roadmap .items .item4
+    {
+        bottom: -20px;
+        left: 510px;
+    }
+
+    .roadmap .items .item5
+    {
+        top: 0;
+        right: 0;
+    }
+
+
+    .roadmap .items .item ul li.margin
+    {
+        margin-top: 12px;
+    }
+
+
+
+    .roadmap .number08
+    {
+        font-size: 480px;
+
+        top: -356px;
+
+        margin-left: -16px;
+    }
+
+
+    .roadmap .year2024
+    {
+        font-size: 100px;
+
+        top: -56px;
+        left: 56px;
+
+        margin-left: 0;
+    }
+
+
+    .roadmap .year2025
+    {
+        font-size: 200px;
+
+        right: 60px;
+        bottom: -94px;
+    }
+
+
+    .roadmap .bg
+    {
+        width: 1480px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team:before
+    {
+        bottom: 48px;
+
+        height: 324px;
+    }
+
+
+    .team .person .photo img
+    {
+        height: 472px;
+    }
+
+
+    .team .person .info
+    {
+        bottom: 88px;
+
+        padding: 12px;
+    }
+
+
+    .team .person .name
+    {
+        font-size: 18px;
+        line-height: 125%;
+
+        padding-bottom: 10px;
+    }
+
+
+    .team .person .name:after
+    {
+        width: 68px;
+    }
+
+
+    .team .person .post
+    {
+        margin-top: 20px;
+    }
+
+
+    .team .person .post br
+    {
+        display: none;
+    }
+
+
+    .team .more
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        margin-bottom: 12px;
+        padding: 32px 0;
+    }
+
+
+    footer .logo img
+    {
+        width: 240px;
+    }
+
+
+    footer .copyright
+    {
+        margin-left: 60px;
+    }
+
+
+    footer .bg
+    {
+        width: 1480px;
+    }
+}

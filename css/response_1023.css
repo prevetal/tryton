@@ -1,0 +1,741 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 40px;
+        --font_size_title_big: 48px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+
+
+    .first_section .title
+    {
+        margin-bottom: 136px;
+        padding-left: 18.5%;
+    }
+
+
+    .first_section .sub_title
+    {
+        font-size: 20px;
+
+        margin-bottom: 40px;
+        padding-left: 2.75%;
+    }
+
+
+    .first_section .chains
+    {
+        gap: 40px;
+    }
+
+
+    .first_section .chain .name
+    {
+        font-size: 24px;
+    }
+
+
+    .first_section .chain .copy_btn svg
+    {
+        width: 12px;
+        height: 17px;
+    }
+
+
+    .first_section .chain .address
+    {
+        font-size: 10px;
+
+        width: 80px;
+        margin-top: 8px;
+    }
+
+
+    .first_section .bg
+    {
+        width: 1280px;
+    }
+
+
+
+    /*-------------------
+        Our resources
+    -------------------*/
+    .our_resources
+    {
+        margin-bottom: 100px;
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .mission .row
+    {
+        margin-bottom: -180px;
+        margin-left: -24px;
+    }
+
+
+    .mission .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 180px;
+        margin-left: 24px;
+    }
+
+    .mission .row > *:last-child
+    {
+        width: calc(100% - 24px);
+    }
+
+
+    .mission .item
+    {
+        padding-right: 23px;
+        padding-bottom: 71px;
+        padding-left: 23px;
+    }
+
+
+    .mission .item:before
+    {
+        width: 240px;
+    }
+
+
+    .mission .item:after
+    {
+        top: -200px;
+        left: 12px;
+
+        width: 160px;
+        height: 280px;
+
+        border-radius: 280px;
+    }
+
+
+    .mission .item .name
+    {
+        font-size: 28px;
+    }
+
+
+    .mission .item .link a
+    {
+        width: 172px;
+    }
+
+
+
+    .mission .main_item
+    {
+        width: 360px;
+        margin-bottom: 260px;
+        margin-left: 0;
+    }
+
+
+    .mission .main_item:before
+    {
+        width: 124px;
+    }
+
+
+    .mission .main_item .name
+    {
+        font-size: 22px;
+    }
+
+
+    .mission .main_item .name .span1
+    {
+        margin: -10px 0 -12px;
+    }
+
+
+    .mission .main_item .name .span2
+    {
+        font-size: 28px;
+    }
+
+
+    .mission .main_item .desc
+    {
+        line-height: 24px;
+    }
+
+
+
+    .mission .number02,
+    .mission .number03,
+    .mission .number04
+    {
+        font-size: 400px;
+    }
+
+
+    .mission .number02
+    {
+        top: -172px;
+
+        margin-left: -80px;
+    }
+
+    .mission .number03
+    {
+        top: 460px;
+
+        margin-left: -360px;
+    }
+
+    .mission .number04
+    {
+        bottom: -364px;
+
+        margin-left: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+    .mission .img
+    {
+        top: 180px;
+
+        width: 324px;
+        margin-left: 32px;
+    }
+
+
+    .mission .bg_light,
+    .mission .bg,
+    .mission .bg2,
+    .mission .bg3,
+    .mission .bg4
+    {
+        width: 1280px;
+    }
+
+
+    .mission .bg3
+    {
+        bottom: -284px;
+    }
+
+    .mission .bg4
+    {
+        bottom: 524px;
+    }
+
+
+
+    /*--------------------
+        NFT collection
+    --------------------*/
+    .nft_collection .img
+    {
+        width: 1454px;
+    }
+
+
+
+    /*-----------------
+        Info blocks
+    -----------------*/
+    .info_blocks
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .info_blocks .data
+    {
+        width: 100%;
+    }
+
+
+    .info_blocks .link
+    {
+        display: none;
+    }
+
+
+    .info_blocks .link a
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .info_blocks .mob_link
+    {
+        display: block;
+    }
+
+
+    .info_blocks .image
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    .info_blocks .number05
+    {
+        font-size: 400px;
+
+        top: 456px;
+
+        margin-left: -220px;
+    }
+
+
+    .info_blocks .bg,
+    .info_blocks .bg2,
+    .info_blocks .bg3
+    {
+        width: 1280px;
+    }
+
+
+    .info_blocks .bg
+    {
+        top: -260px;
+    }
+
+
+    .info_blocks .bg2
+    {
+        display: none;
+    }
+
+    .info_blocks .bg3
+    {
+        bottom: -124px;
+    }
+
+
+    .info_blocks .mob_bg
+    {
+        display: block;
+    }
+
+
+
+    /*------------
+        Wallet
+    ------------*/
+    .wallet .data
+    {
+        height: 380px;
+    }
+
+
+    .wallet .img
+    {
+        bottom: -24px;
+
+        height: 460px;
+        margin-left: -108px;
+    }
+
+
+    .wallet .number06
+    {
+        font-size: 400px;
+
+        bottom: -372px;
+    }
+
+
+
+    /*------------------
+        Three blocks
+    ------------------*/
+    .three_blocks
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .three_blocks .row
+    {
+        margin-bottom: -180px;
+        margin-left: -24px;
+    }
+
+
+    .three_blocks .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 180px;
+        margin-left: 24px;
+    }
+
+
+    .three_blocks .row > *:last-child
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    .three_blocks .bg,
+    .three_blocks .bg2
+    {
+        width: 1280px;
+    }
+
+
+    .three_blocks .bg
+    {
+        display: none;
+    }
+
+
+    .three_blocks .bg2
+    {
+        top: 100px;
+    }
+
+
+    .three_blocks .mob_bg
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Tokenomics
+    ----------------*/
+    .tokenomics .title
+    {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+
+    .tokenomics .persents
+    {
+        width: 320px;
+        margin-right: 0;
+    }
+
+
+    .tokenomics .total_supply
+    {
+        margin-top: -40px;
+    }
+
+
+    .tokenomics .total_supply .total
+    {
+        text-align: center;
+    }
+
+
+    .tokenomics .total_supply .total .label
+    {
+        font-size: 24px;
+    }
+
+
+    .tokenomics .total_supply .total .val
+    {
+        font-size: 60px;
+    }
+
+
+    .tokenomics .total_supply .tokens
+    {
+        font-size: 24px;
+
+        justify-content: center;
+
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .tokenomics .total_supply .tokens span
+    {
+        width: 60px;
+    }
+
+
+    .tokenomics .number07
+    {
+        font-size: 400px;
+
+        top: -236px;
+
+        margin-left: 0;
+    }
+
+
+    .tokenomics .bg
+    {
+        width: 1124px;
+    }
+
+
+
+    /*-------------
+        Roadmap
+    -------------*/
+    .roadmap .data
+    {
+        padding: 51px 23px 31px;
+    }
+
+
+    .roadmap .block_head
+    {
+        top: -36px;
+    }
+
+
+    .roadmap .items
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 860px;
+
+        gap: 24px;
+    }
+
+
+    .roadmap .items .item
+    {
+        position: relative;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: calc(50% - 12px);
+    }
+
+
+    .roadmap .items .item1
+    {
+        top: 0;
+        left: 0;
+    }
+
+    .roadmap .items .item2
+    {
+        top: 0;
+        left: 0;
+    }
+
+    .roadmap .items .item3
+    {
+        top: 0;
+        left: 0;
+    }
+
+    .roadmap .items .item4
+    {
+        bottom: 0;
+        left: 0;
+    }
+
+    .roadmap .items .item5
+    {
+        top: 0;
+        right: 0;
+    }
+
+
+    .roadmap .items .item ul
+    {
+        width: calc(100% - 152px);
+    }
+
+
+    .roadmap .items .item img
+    {
+        display: block;
+    }
+
+
+    .roadmap .items > img
+    {
+        display: none;
+    }
+
+
+    .roadmap .items .item ul li.margin
+    {
+        margin-top: 0;
+    }
+
+
+    .roadmap .items .item ul li img
+    {
+        width: 20px;
+        height: 18px;
+        margin: 0 4px;
+    }
+
+
+
+    .roadmap .number08
+    {
+        font-size: 400px;
+
+        top: -300px;
+
+        margin-left: -60px;
+    }
+
+
+    .roadmap .year2024
+    {
+        font-size: 64px;
+
+        top: -36px;
+        left: 48px;
+    }
+
+
+    .roadmap .year2025
+    {
+        font-size: 148px;
+
+        right: 24px;
+        bottom: -70px;
+    }
+
+
+    .roadmap .bg
+    {
+        top: 0;
+
+        width: 1280px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team:before
+    {
+        display: none;
+    }
+
+
+    .team .row
+    {
+        margin-bottom: -16px;
+        margin-left: -16px;
+    }
+
+
+    .team .row > *
+    {
+        width: calc(33.333% - 16px);
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+    .team .person .info
+    {
+        bottom: 24px;
+
+        padding: 16px;
+    }
+
+
+    .team .person .name
+    {
+        font-size: 16px;
+    }
+
+
+    .team .more
+    {
+        font-size: 28px;
+
+        position: relative;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        padding: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        margin-bottom: 0;
+        padding: 28px 0;
+    }
+
+
+    footer .logo img
+    {
+        width: 220px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 14px;
+
+        margin-left: 40px;
+    }
+
+
+    footer .bg
+    {
+        bottom: 0;
+
+        width: 1280px;
+    }
+}
