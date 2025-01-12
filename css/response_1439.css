@@ -2,12 +2,6 @@
 (max-width: 1439px)
 {
     /*-------------------
-        Global styles
-    -------------------*/
-
-
-
-    /*-------------------
         First section
     -------------------*/
     .first_section .title
@@ -18,7 +12,7 @@
 
     .first_section .sub_title
     {
-        padding-left: 14%;
+        padding-left: 13.65%;
     }
 
 
@@ -63,5 +57,18 @@
     .tokenomics .total_supply .tokens
     {
         font-size: 36px;
+    }
+
+
+
+    /*-------------
+        Roadmap
+    -------------*/
+    .roadmap .year2025
+    {
+        font-size: 250px;
+
+        right: 140px;
+        bottom: -104px;
     }
 }

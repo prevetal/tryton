@@ -99,7 +99,7 @@
     .mission .item
     {
         padding-right: 23px;
-        padding-bottom: 71px;
+        padding-bottom: 51px;
         padding-left: 23px;
     }
 
@@ -119,6 +119,12 @@
         height: 280px;
 
         border-radius: 280px;
+    }
+
+
+    .mission .item .thumb
+    {
+        transform: scale(.9);
     }
 
 
@@ -180,7 +186,7 @@
 
     .mission .number03
     {
-        top: 400px;
+        top: 376px;
 
         margin-left: -448px;
     }
@@ -224,7 +230,7 @@
     --------------------*/
     .nft_collection
     {
-        margin-bottom: 92px;
+        margin-bottom: 68px;
     }
 
 
@@ -240,7 +246,7 @@
     -----------------*/
     .info_blocks
     {
-        margin-bottom: 112px;
+        margin-bottom: 92px;
     }
 
 
@@ -298,12 +304,6 @@
     /*------------
         Wallet
     ------------*/
-    .wallet
-    {
-        margin-bottom: 224px;
-    }
-
-
     .wallet .data
     {
         height: 480px;
@@ -312,24 +312,10 @@
 
     .wallet .img
     {
-        bottom: -40px;
+        bottom: -48px;
 
-        height: 580px;
-        margin-left: -140px;
-    }
-
-
-    .wallet .vertical_title
-    {
-        display: none;
-    }
-
-
-    .wallet .number06
-    {
-        font-size: 480px;
-
-        bottom: -460px;
+        height: 620px;
+        margin-left: -188px;
     }
 
 
@@ -340,6 +326,7 @@
     .three_blocks
     {
         margin-bottom: 124px;
+        padding-top: 300px;
     }
 
 
@@ -359,7 +346,7 @@
     .three_blocks .item
     {
         padding-right: 23px;
-        padding-bottom: 71px;
+        padding-bottom: 51px;
         padding-left: 23px;
     }
 
@@ -382,9 +369,9 @@
     }
 
 
-    .three_blocks .item:nth-child(3) .thumb img
+    .three_blocks .item .thumb
     {
-        margin-left: 12px;
+        transform: scale(.9);
     }
 
 
@@ -405,6 +392,22 @@
         width: 172px;
     }
 
+
+
+    .three_blocks .number06
+    {
+        font-size: 480px;
+
+        top: -228px;
+
+        margin-left: 0;
+    }
+
+
+    .three_blocks .vertical_title
+    {
+        display: none;
+    }
 
 
     .three_blocks .bg,
@@ -498,56 +501,15 @@
     /*-------------
         Roadmap
     -------------*/
-    .roadmap .data
-    {
-        padding: 91px 55px 67px;
-    }
-
-
-    .roadmap .block_head
-    {
-        top: -42px;
-    }
-
-
-    .roadmap .items
-    {
-        width: 860px;
-    }
-
-
     .roadmap .items .item
     {
-        font-size: 16px;
+        font-size: 18px;
     }
 
 
-    .roadmap .items .item1
+    .roadmap .items .item ul li
     {
-        top: 12px;
-    }
-
-    .roadmap .items .item2
-    {
-        left: 186px;
-    }
-
-    .roadmap .items .item3
-    {
-        top: -20px;
-        left: 342px;
-    }
-
-    .roadmap .items .item4
-    {
-        bottom: -20px;
-        left: 510px;
-    }
-
-    .roadmap .items .item5
-    {
-        top: 0;
-        right: 0;
+        padding-left: 12px;
     }
 
 
@@ -572,8 +534,8 @@
     {
         font-size: 100px;
 
-        top: -56px;
-        left: 56px;
+        top: -20px;
+        left: 60px;
 
         margin-left: 0;
     }
@@ -583,8 +545,8 @@
     {
         font-size: 200px;
 
-        right: 60px;
-        bottom: -94px;
+        right: 92px;
+        bottom: -92px;
     }
 
 

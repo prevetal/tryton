@@ -229,7 +229,7 @@
 
     .mission .row
     {
-        margin-bottom: -235px;
+        margin-bottom: -254px;
         margin-left: 0;
     }
 
@@ -237,7 +237,7 @@
     .mission .row > *
     {
         width: 100%;
-        margin-bottom: 235px;
+        margin-bottom: 254px;
         margin-left: 0;
     }
 
@@ -284,7 +284,7 @@
     .mission .main_item
     {
         width: 100%;
-        margin-bottom: 216px;
+        margin-bottom: 290px;
         padding: 0;
 
         border: none;
@@ -368,7 +368,7 @@
         bottom: 0;
         left: 0;
 
-        margin-top: 54px;
+        margin-top: 24px;
 
         transform: none;
     }
@@ -401,7 +401,7 @@
 
     .mission .number03
     {
-        top: 680px;
+        top: 720px;
         right: -80px;
         left: auto;
 
@@ -410,7 +410,7 @@
 
     .mission .number04
     {
-        bottom: -304px;
+        bottom: -340px;
     }
 
 
@@ -543,10 +543,7 @@
     ------------*/
     .wallet
     {
-        margin-bottom: 142px;
-        padding-bottom: 94px;
-
-        background: var(--bg);
+        z-index: 6;
     }
 
 
@@ -588,35 +585,7 @@
     }
 
 
-    .wallet .vertical_title
-    {
-        font-size: 300px;
-
-        top: 100%;
-        right: -140px;
-
-        display: block;
-
-        margin-top: -24px;
-        margin-right: 0;
-    }
-
-
-    .wallet .number06
-    {
-        font-size: 350px;
-
-        bottom: -324px;
-        left: 50%;
-
-        margin-left: 0;
-
-        transform: translateX(-50%);
-    }
-
-
-    .wallet .mob_bg,
-    .wallet .mob_bg2
+    .wallet .mob_bg
     {
         display: block;
     }
@@ -631,15 +600,14 @@
         z-index: 5;
 
         margin-bottom: -12px;
+        padding-top: 243px;
         padding-bottom: 80px;
-
-        background: var(--bg);
     }
 
 
     .three_blocks .row
     {
-        margin-bottom: -208px;
+        margin-bottom: -254px;
         margin-left: 0;
     }
 
@@ -647,7 +615,7 @@
     .three_blocks .row > *
     {
         width: 100%;
-        margin-bottom: 208px;
+        margin-bottom: 254px;
         margin-left: 0;
     }
 
@@ -692,6 +660,30 @@
 
 
 
+    .three_blocks .vertical_title
+    {
+        font-size: 300px;
+
+        top: -94px;
+        right: -140px;
+
+        display: block;
+
+        margin-top: -24px;
+        margin-right: 0;
+    }
+
+
+    .three_blocks .number06
+    {
+        font-size: 350px;
+
+        z-index: 2;
+        top: -68px;
+    }
+
+
+
     .three_blocks .bg,
     .three_blocks .bg2,
     .three_blocks .mob_bg
@@ -700,6 +692,7 @@
     }
 
 
+    .three_blocks .mob_bg1,
     .three_blocks .mob_bg2,
     .three_blocks .mob_bg3,
     .three_blocks .mob_bg4,
@@ -820,15 +813,9 @@
     }
 
 
-    .roadmap .cont
-    {
-        padding: 0;
-    }
-
-
     .roadmap .data
     {
-        padding: 77px 27px 93px;
+        padding: 64px 23px 31px;
     }
 
 

@@ -94,7 +94,7 @@
 
     .mission .row
     {
-        margin-bottom: -180px;
+        margin-bottom: -235px;
         margin-left: -24px;
     }
 
@@ -102,7 +102,7 @@
     .mission .row > *
     {
         width: calc(50% - 24px);
-        margin-bottom: 180px;
+        margin-bottom: 235px;
         margin-left: 24px;
     }
 
@@ -115,7 +115,6 @@
     .mission .item
     {
         padding-right: 23px;
-        padding-bottom: 71px;
         padding-left: 23px;
     }
 
@@ -135,6 +134,12 @@
         height: 280px;
 
         border-radius: 280px;
+    }
+
+
+    .mission .item .thumb
+    {
+        transform: none;
     }
 
 
@@ -207,7 +212,7 @@
 
     .mission .number03
     {
-        top: 460px;
+        top: 392px;
 
         margin-left: -360px;
     }
@@ -268,7 +273,7 @@
     -----------------*/
     .info_blocks
     {
-        margin-bottom: 100px;
+        margin-bottom: 68px;
     }
 
 
@@ -311,7 +316,7 @@
     {
         font-size: 400px;
 
-        top: 456px;
+        top: 532px;
 
         margin-left: -220px;
     }
@@ -360,18 +365,8 @@
 
     .wallet .img
     {
-        bottom: -24px;
-
-        height: 460px;
-        margin-left: -108px;
-    }
-
-
-    .wallet .number06
-    {
-        font-size: 400px;
-
-        bottom: -372px;
+        height: 508px;
+        margin-left: -152px;
     }
 
 
@@ -382,12 +377,13 @@
     .three_blocks
     {
         margin-bottom: 100px;
+        padding-top: 280px;
     }
 
 
     .three_blocks .row
     {
-        margin-bottom: -180px;
+        margin-bottom: -235px;
         margin-left: -24px;
     }
 
@@ -395,7 +391,7 @@
     .three_blocks .row > *
     {
         width: calc(50% - 24px);
-        margin-bottom: 180px;
+        margin-bottom: 235px;
         margin-left: 24px;
     }
 
@@ -405,6 +401,20 @@
         width: calc(100% - 24px);
     }
 
+
+    .three_blocks .item .thumb
+    {
+        transform: none;
+    }
+
+
+
+    .three_blocks .number06
+    {
+        font-size: 400px;
+
+        top: -184px;
+    }
 
 
     .three_blocks .bg,
@@ -511,18 +521,6 @@
     /*-------------
         Roadmap
     -------------*/
-    .roadmap .data
-    {
-        padding: 51px 23px 31px;
-    }
-
-
-    .roadmap .block_head
-    {
-        top: -36px;
-    }
-
-
     .roadmap .items
     {
         display: flex;
@@ -531,7 +529,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
-        width: 860px;
+        width: 100%;
 
         gap: 24px;
     }
@@ -539,6 +537,8 @@
 
     .roadmap .items .item
     {
+        font-size: 16px;
+
         position: relative;
 
         display: flex;
@@ -551,34 +551,14 @@
     }
 
 
-    .roadmap .items .item1
-    {
-        top: 0;
-        left: 0;
-    }
-
-    .roadmap .items .item2
-    {
-        top: 0;
-        left: 0;
-    }
-
-    .roadmap .items .item3
-    {
-        top: 0;
-        left: 0;
-    }
-
-    .roadmap .items .item4
-    {
-        bottom: 0;
-        left: 0;
-    }
-
+    .roadmap .items .item1,
+    .roadmap .items .item2,
+    .roadmap .items .item3,
+    .roadmap .items .item4,
     .roadmap .items .item5
     {
         top: 0;
-        right: 0;
+        left: 0;
     }
 
 
@@ -629,8 +609,8 @@
     {
         font-size: 64px;
 
-        top: -36px;
-        left: 48px;
+        top: 16px;
+        left: 40px;
     }
 
 
@@ -638,7 +618,7 @@
     {
         font-size: 148px;
 
-        right: 24px;
+        right: 40px;
         bottom: -70px;
     }
 
