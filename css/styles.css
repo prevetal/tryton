@@ -877,11 +877,6 @@ button
 }
 
 
-.mission .item:nth-child(2) .thumb
-{
-    padding-right: 48px;
-}
-
 .mission .item:nth-child(2) .thumb:before
 {
     top: 30px;
