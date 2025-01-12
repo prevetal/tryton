@@ -309,7 +309,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
@@ -320,11 +320,13 @@ button
 
 .first_section .bg.mob
 {
+    top: -52px;
     left: 0;
 
     display: none;
 
     width: 440px;
+    min-height: 100px;
 
     transform: none;
 }
@@ -335,8 +337,8 @@ button
     position: relative;
     z-index: 3;
 
-    padding-top: 216px;
-    padding-bottom: 68px;
+    padding-top: 217px;
+    padding-bottom: 51px;
 }
 
 
@@ -347,7 +349,7 @@ button
     line-height: 128.696%;
 
     margin-bottom: 171px;
-    padding-left: 26.851%;
+    padding-left: 27.2%;
 
     text-transform: uppercase;
 }
@@ -360,7 +362,7 @@ button
     line-height: 128.696%;
 
     margin-bottom: 52px;
-    padding-left: 15.046%;
+    padding-left: 15.5%;
 
     text-transform: uppercase;
 }
@@ -1180,13 +1182,12 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
 
     mix-blend-mode: color-dodge;
-    object-fit: cover;
 }
 
 
@@ -1200,7 +1201,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
@@ -1216,7 +1217,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
@@ -1232,7 +1233,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%) scale(-1, 1);
     pointer-events: none;
@@ -1248,7 +1249,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
@@ -1453,7 +1454,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
     margin: 0 auto;
 }
 
@@ -1660,7 +1661,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
@@ -1676,7 +1677,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%) scale(-1, -1);
     pointer-events: none;
@@ -1694,7 +1695,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%) scale(-1, -1);
     pointer-events: none;
@@ -2237,7 +2238,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
@@ -2255,7 +2256,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%) scale(-1, 1);
     pointer-events: none;
@@ -2620,7 +2621,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
@@ -2933,7 +2934,7 @@ button
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
 
     transform: translateX(-50%);
     pointer-events: none;
@@ -3382,7 +3383,7 @@ footer .bg
 
     display: block;
 
-    width: 1680px;
+    width: 1920px;
     min-height: 100px;
 
     transform: translateX(-50%);

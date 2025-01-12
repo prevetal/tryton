@@ -19,6 +19,8 @@
     .first_section
     {
         z-index: 5;
+
+        overflow: hidden;
     }
 
 
@@ -36,7 +38,7 @@
 
     .first_section .cont
     {
-        padding-top: 341px;
+        padding-top: 388px;
     }
 
 
@@ -206,7 +208,7 @@
 
     .our_resources .swiper-slide.active .item img
     {
-        transform: scale(1.35);
+        transform: scale(1.9);
     }
 
 
