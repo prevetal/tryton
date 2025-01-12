@@ -38,7 +38,7 @@
 
     .first_section .cont
     {
-        padding-top: 388px;
+        padding-top: 340px;
     }
 
 
@@ -269,10 +269,24 @@
     }
 
 
+    .mission .item .thumb:before
+    {
+        width: 144px;
+        height: 144px;
+    }
+
+
+    .mission .item:nth-child(1) .thumb:before
+    {
+        top: 24px;
+        left: -60px;
+    }
+
+
     .mission .item:nth-child(3) .thumb:before
     {
-        top: 36px;
-        right: -4px;
+        top: 64px;
+        right: -16px;
     }
 
 
@@ -293,7 +307,7 @@
     .mission .main_item
     {
         width: 100%;
-        margin-bottom: 290px;
+        margin-bottom: 260px;
         padding: 0;
 
         border: none;
@@ -656,6 +670,23 @@
         height: 327px;
 
         border-radius: 339px;
+    }
+
+
+    .three_blocks .item:nth-child(2) .thumb:before
+    {
+        top: 32px;
+        left: 32px;
+    }
+
+
+    .three_blocks .item:nth-child(3) .thumb:before
+    {
+        top: 0;
+        left: 20px;
+
+        width: 144px;
+        height: 144px;
     }
 
 
